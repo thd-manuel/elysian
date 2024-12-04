@@ -1,6 +1,8 @@
 body {
   color:black;
   font-family: italic;
+  margin: 0;
+  padding: 0;
 }
 #firstView {
 
