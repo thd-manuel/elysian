@@ -8,9 +8,9 @@ body {
 #secondView {
 }
 #Vid1 {
-  position: fixed;
+  position: relative;
   right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
+  top: 0;
+  width: 100%;
+  height: auto;
 }
