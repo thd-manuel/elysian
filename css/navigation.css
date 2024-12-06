@@ -1,5 +1,4 @@
-nav {
-	.topnav {
+nav.topnav {
 		 background-color: #ae9a64;
             	 display: flex;
             	 justify-content: space-around;
@@ -11,7 +10,7 @@ nav {
            	 z-index: 1000;
 	}
 	
-	.topnav .nav-item {
+	nav.topnav .nav-item {
           	 color: black;
           	 text-decoration: none;
            	 font-size: 18px;
@@ -20,11 +19,11 @@ nav {
            	 transition: color 0.3s ease;
         }
 
-        .topnav .nav-item:hover {
+        nav.topnav .nav-item:hover {
           	 color: #616161;
         }
 
-        .logo-container {
+        nav.logo-container {
           	 cursor: pointer;
            	 display: flex;
           	 justify-content: center;
@@ -32,8 +31,8 @@ nav {
            	 margin: 0 auto;
         }
 
-        .logo-container img {
+        nav.logo-container img {
            	 height: 60px; 
            	 width: auto;
         }
-}
+
