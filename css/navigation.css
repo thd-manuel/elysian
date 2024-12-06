@@ -1,4 +1,4 @@
-nav.topnav {
+nav#topnav {
 		 background-color: #ae9a64;
             	 display: flex;
             	 justify-content: space-around;
@@ -10,7 +10,7 @@ nav.topnav {
            	 z-index: 1000;
 	}
 	
-	nav.topnav .nav-item {
+	nav#topnav .nav-item {
           	 color: black;
           	 text-decoration: none;
            	 font-size: 18px;
@@ -19,11 +19,11 @@ nav.topnav {
            	 transition: color 0.3s ease;
         }
 
-        nav.topnav .nav-item:hover {
+        nav#topnav .nav-item:hover {
           	 color: #616161;
         }
 
-        nav.logo-container {
+        nav#logo-container {
           	 cursor: pointer;
            	 display: flex;
           	 justify-content: center;
@@ -31,7 +31,7 @@ nav.topnav {
            	 margin: 0 auto;
         }
 
-        nav.logo-container img {
+        nav#logo-container img {
            	 height: 60px; 
            	 width: auto;
         }
