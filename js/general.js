@@ -2,7 +2,7 @@ function myFunction() {
 	document.getElementById("demo").innerHTML = "Paragraph changed.";
 }
 
-<!-- Navigation zum hoch runter scrollen -->
+//Navigation zum hoch runter scrollen
 document.addEventListener("DOMContentLoaded", () => {
     document.querySelectorAll(".nav-item[data-target]").forEach(item => {
         item.addEventListener("click", () => {
