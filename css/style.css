@@ -6,7 +6,8 @@ body {
 }
 h1{
 	color: #AE9A64;
-	text-align: center
+	text-align: center;
+	font-size: 50 pt;
 }
 #firstView {
 	position: relative;
