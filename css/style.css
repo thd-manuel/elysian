@@ -7,7 +7,7 @@ body {
 h1{
 	color: #AE9A64;
 	text-align: center;
-	font-size: 50px;
+	font-size: 150px;
 }
 #firstView {
 	position: relative;
@@ -34,8 +34,8 @@ h1{
 #secondView {
 }
 #text-about{
-	text-align: center
+	text-align: center;
 	padding-left:150px;
-	padding-right:150px
+	padding-right:150px;
 }
 
