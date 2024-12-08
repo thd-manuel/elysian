@@ -5,7 +5,8 @@ body {
   padding: 0;
 }
 h1{
-	color: green;
+	color: #AE9A64;
+	text-align: center
 }
 #firstView {
 	position: relative;
@@ -30,5 +31,8 @@ h1{
   height: auto;
 }
 #secondView {
-	color: #AE9A64;
+
+}
+#about{
+	text-align: center
 }
