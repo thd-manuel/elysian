@@ -38,4 +38,8 @@ h1{
 	padding-left:150px;
 	padding-right:150px;
 }
+#images-about{
+	display: flex;
+	justify-content: center;
+}
 
