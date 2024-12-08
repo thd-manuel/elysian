@@ -33,7 +33,7 @@ h1{
 }
 #secondView {
 }
-#secondView::text-about{
+#secondView .text-about{
 	text-align: center;
 	padding-left:150px;
 	padding-right:150px;
