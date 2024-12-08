@@ -4,6 +4,9 @@ body {
   margin: 0;
   padding: 0;
 }
+h1{
+	color: green;
+}
 #firstView {
 	position: relative;
 	width: 100%;
