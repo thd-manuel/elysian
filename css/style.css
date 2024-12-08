@@ -42,5 +42,6 @@ h1{
 #secondView .images-about{
 	display: flex;
 	justify-content: center;
+	padding: 15px;
 }
 
