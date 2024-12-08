@@ -39,7 +39,7 @@ h1{
 	padding-left: 150px;
 	padding-right: 150px;
 }
-##secondView::text-about::images-about{
+##secondView .text-about .images-about{
 	display: flex;
 	justify-content: center;
 }
