@@ -33,6 +33,9 @@ h1{
 }
 #secondView {
 }
-#about{
+#text-about{
 	text-align: center
+	padding-left:150px;
+	padding-right:150px
 }
+
