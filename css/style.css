@@ -53,10 +53,10 @@ h3{
 .images-about{
 	display: flex;
 	justify-content: center;
-	margin: 25px;
+	margin: 25px 25px 25px 25px;
 }
 #menu{
-	font-size: 25px;
+	font-size: 21px;
 }
 .leftColumnMenu{
 	padding-left: 100px;
