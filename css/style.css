@@ -36,12 +36,12 @@ h1{
 #secondView .text-about{
 	font-size: 25px;
 	text-align: center;
-	padding-left: 150px;
-	padding-right: 150px;
+	padding-left: 250px;
+	padding-right: 250px;
 }
 #secondView .images-about{
 	display: flex;
 	justify-content: center;
-	padding: 15px;
+	padding: 35px;
 }
 
