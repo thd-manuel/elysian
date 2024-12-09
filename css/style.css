@@ -58,6 +58,10 @@ h3{
 #menu{
 	font-size: 21px;
 }
+.columnsMenu{
+	diplay: flex;
+	justify-content: space-between;
+}
 .leftColumnMenu{
 	padding-left: 100px;
 	
