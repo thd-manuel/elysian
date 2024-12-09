@@ -61,14 +61,14 @@ h3{
 .columnsMenu{
 	display: flex;
 	justify-content: space-between;
-	margin: 200px;
+	margin: 0px 100px;
 }
 .leftColumnMenu{
-	padding-left: 100px;
+	padding-left: 50px;
 	flex: 1;
 }
 .rightColumnMenu{
-	padding-right: 100px;
+	padding-right: 50px;
 	flex: 1;
 }
 .surprise-menu{
