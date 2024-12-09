@@ -11,14 +11,14 @@ h1{
 }
 h2{
 	color: #AE9A64;
-	text-align: center;
+	text-align: left;
 	font-size: 40px;
 }
 h3{
 	color: black;
 	text-align: left;
 	font-size: 27px;
-	margin-bottom: 5px;
+	margin-bottom: 2px;
 }
 #firstView {
 	position: relative;
