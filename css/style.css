@@ -61,6 +61,7 @@ h3{
 .columnsMenu{
 	display: flex;
 	justify-content: space-between;
+	margin: 200px;
 }
 .leftColumnMenu{
 	padding-left: 100px;
