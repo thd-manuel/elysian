@@ -33,13 +33,13 @@ h1{
 }
 #secondView {
 }
-#secondView .text-about{
+.text-about{
 	font-size: 25px;
 	text-align: center;
 	padding-left: 250px;
 	padding-right: 250px;
 }
-#secondView .images-about{
+.images-about{
 	display: flex;
 	justify-content: center;
 	padding: 35px;
