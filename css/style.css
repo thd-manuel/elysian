@@ -60,14 +60,16 @@ h3{
 }
 .columnsMenu{
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	margin: 0px 50px 50px 50px;
 }
 .leftColumnMenu{
 	flex: 1;
+	margin: 0px 50px 0px 0px;
 }
 .rightColumnMenu{
 	flex: 1;
+	margin: 0px 0px 0px 50px;
 }
 .surprise-menu{
 	text-align: center;
