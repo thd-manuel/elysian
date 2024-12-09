@@ -64,10 +64,13 @@ h3{
 }
 .leftColumnMenu{
 	padding-left: 100px;
-	
+	flex: 1;
 }
 .rightColumnMenu{
 	padding-right: 100px;
-
+	flex: 1;
+}
+.surprise-menu{
+	text-align: center;
 }
 
