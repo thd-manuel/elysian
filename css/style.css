@@ -9,6 +9,11 @@ h1{
 	text-align: center;
 	font-size: 60px;
 }
+h2{
+	color: #AE9A64;
+	text-align: center;
+	font-size: 40px;
+}
 #firstView {
 	position: relative;
 	width: 100%;
