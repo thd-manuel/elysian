@@ -54,4 +54,10 @@ h3{
 	justify-content: center;
 	margin: 25px;
 }
+.leftColumnMenu{
+	padding-left: 100px;
+}
+.rightColumnMenu{
+	padding-right: 100px;
+}
 
