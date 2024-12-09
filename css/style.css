@@ -59,7 +59,7 @@ h3{
 	font-size: 21px;
 }
 .columnsMenu{
-	diplay: flex;
+	display: flex;
 	justify-content: space-between;
 }
 .leftColumnMenu{
