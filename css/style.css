@@ -53,7 +53,7 @@ h3{
 .images-about{
 	display: flex;
 	justify-content: center;
-	margin: 25px 25px 25px 25px;
+	gap: 25px;
 }
 #menu{
 	font-size: 21px;
