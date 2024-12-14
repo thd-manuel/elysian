@@ -96,24 +96,47 @@ h3{
 	flex: 1;
 	width: 250px;
 }
-.glassIco{
-	--width: 100px;
-	width: var(--width);
-	height: var(--width);
-	color: #AE9A64;
-	font-size: 30px;
-	border-radius: 5px;
-	background:rgba(255, 255, 255, 0.05);
-	backdrop-filter: blur(2px);
-	border: 1px soild rgba(255, 255, 255, 0.2);
-	border-right-colour: rgba(255, 255, 255, 0.1);
-	border-bottom-colour: rgba(255, 255, 255, 01);
-	box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
-	text-decoration: none;
-	margin: 20px;
-	overflow: hidden;
+.sign{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	gap: 2rem;
+}	
+.ico{
+	width: 5.625rem;
+	height: 5.625rem;
+	background-color: #AE9A64;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	position: relative;
+}
+.icon:hover>i{
+	scale: 1.2;
+	color: black;
+}
+.icon:before{
+	background: var(--color);
+	content:"";
+	postion: absolute;
+	width: 130%;
+	height: 130%;
+	left: -110%;
+	top: 80%;
+	transform: rotate(45deg);
+}
+.icon:hover:before{
+	animation: slide 0.7s forwards;
+}
+@keyframes slides{
+	50%{
+		left: 10%;
+		top:-40%;
+	}
+	100%{ 
+		left: -15%;
+		top:-15%;
+	}
 }
 
