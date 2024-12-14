@@ -79,6 +79,10 @@ h3{
 	color: #AE9A64;
 	font-size: 40px;
 }
+.footer{ 
+	background-color: black;
+	color: white;
+}
 .columsfooter{
 	display: flex;
 	justify-content: center;
