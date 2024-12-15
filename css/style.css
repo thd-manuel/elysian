@@ -87,16 +87,8 @@ h3{
 	position: relative;
 }
 .footer{ 
-	float: left;
-	width: 100%;
-	padding: 50px 0 0;
-	min-width: 1160px;
 	background-color: #3c3c3b;
-	color: black;
-	tect-align: center;
-	background-size: cover;
-	margin: 0;
-	margin: 0;
+	color: white;
 }
 .container{
 	margin 0 auto;
