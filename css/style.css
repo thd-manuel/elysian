@@ -117,12 +117,12 @@ h4{
 	opacity:0.7;
 }
 .fa-facebook{
-	background:white;
-	color: black;
+	background:transparent;
+	color: white;
 }
 .fa-instagram{
-	background: red;
-	color: black;
+	background: transparent;
+	color: white;
 }
 #footer div.container{
 	max-width: 1460px;
