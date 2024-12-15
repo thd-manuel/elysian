@@ -135,45 +135,7 @@ h4{
 	margin: 40px 4%;
 	color: white;
 }
-#footer.social a { 
-	display: inline-block;
-	padding: 8px;
-	text-align: center;
-	margin: 5px 5px 5px 0;
-	float: none;
-	background: transparent;
-	color: black;
-	font-size: 30px;
-}
-.social a .fblink{
-	font-family: 'icons';
-	position: relative;
-}
-.social a .instalink{
-	font-family: 'icons';
-	position: relative;
-}
-.social a {
-	display: block;
-	float: left;
-	margin: 5px;
-	color: white;
-	text-decoration: none;
-	font-weight: 400;
-	background: black;
-}
-a{
-	color: #3c3c3b;
-	text-decoration: none;
-}
-#footer .social{
-	position: relative;
-	display: block;
-	float: left;
-	width: 100%;
-	margin: 0;
-	text-align: center;
-}
+
 footer ul{
 	float: left;
 	margin: 0;
