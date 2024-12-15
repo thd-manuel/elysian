@@ -161,3 +161,14 @@ footer ul li a{
 	padding: 10px 30px;
 	color: black;
 	float: left;
+}
+#copyright{
+	float: left;
+	width: 90%;
+	margin: 30px 0 0;
+	padding: 30px 5%;
+	position: relative;
+	background: black;
+	color: white;
+	font-size: 0.9em;
+}
