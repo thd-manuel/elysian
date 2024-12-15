@@ -109,6 +109,11 @@ h3{
 	display: flex;
 	flex-wrap: wrap;
 }
+.footnav{
+	float: left;
+	width: 92%;
+	margin: 40px 4%;
+}
 .button{
   	border: none;
   	color: white;
