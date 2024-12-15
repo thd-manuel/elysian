@@ -172,3 +172,7 @@ footer ul li a{
 	color: white;
 	font-size: 0.9em;
 }
+p{
+	margin: 10px 0 15px 0;
+	line-height:1.6em;
+}
