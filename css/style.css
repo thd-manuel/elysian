@@ -98,24 +98,16 @@ h3{
 	margin: 0;
 	margin: 0;
 }
-.columsfooter{
+.container{
+	margin 0 auto;
+	max-width: 1460px;
+	width: 100%;
+	padding: 0;
+}
+#footer div.container{
+	max-width: 1460px;
 	display: flex;
-	justify-content: center;
-	margin: 0px 50px 50px 50px;
-	background-color: black;
-	color: white;
-}
-.leftColumfooter{
-	flex: 1;
-	width: 250px;
-}
-.rightColumfooter{
-	flex: 1;
-	width: 250px;
-}
-.middleColumfooter{
-	flex: 1;
-	width: 250px;
+	flex-wrap: wrap;
 }
 .button{
   	border: none;
@@ -150,32 +142,3 @@ h3{
   background-color: #AE9A64;
   color: white;
 }
-
-.container {
-	display: grid;
-	grid-template-rows: 80px auto 1fr auto 50px;
-	grid-template-columns: 1fr 4fr 1fr;
-	height: 100vh;
-	grip-template-areas:
-		"columfooter	columfooter	columfooter"
-		"leftColumfooter	middleColumfooter	rightColumfooter"
-		"sign	sign	sing";
-	grid-gap:10px;
-	padding: 10px;
-	font-weight: 600px;
-	front-size:20px
-}
-@media (max-width: 678px){
-	.container{
-		grid-template-rows: 50px 50px 50px 1fr 50px 50px 50px;
-		grid-template-colums: 1fr;
-		grid-template-areas: 
-			"columfooter"
-			"leftColumfooter"
-			"middleColumfooter"
-			"rightColumfooter"
-			"sign";
-	}
-}
-			
-
