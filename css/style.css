@@ -194,3 +194,14 @@ ul{
 	line-height: 1.5em;
 	padding: 0 0 0 25px;
 }
+footer ul li{ 
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+footer ul li a{
+	display: block;
+	padding: 10px 30px;
+	color: black;
+	float: left;
