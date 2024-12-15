@@ -123,9 +123,13 @@ h4{
 	color: black;
 	font-size: 30px;
 }
-.social a.fblink{
+.social a .fblink{
 	font-family: 'icons';
-	font-size:1.1em;
+	position: relative;
+}
+.social a .instalink{
+	font-family: 'icons';
+	position: relative;
 }
 .social a {
 	display: block;
