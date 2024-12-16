@@ -155,6 +155,7 @@ ul{
 li{
 	display: inline;
 	text-align: -webkit-match-parent;
+	word-spacing: 50px;
 }
 a{
 	text-decoration: none;
