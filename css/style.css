@@ -150,6 +150,10 @@ ul{
 	line-height: 1.5em;
 	padding: 0 0 0 25px;
 }
+li{
+	display: list-item;
+	text-align: -webkit-match-parent;
+}
 a{
 	text-decoration: none;
 	color: white;
