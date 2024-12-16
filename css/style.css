@@ -66,6 +66,7 @@ h4{
 }
 .columnsMenu{
 	display: flex;
+	flex-flow: row wrap;
 	justify-content: center;
 	margin: 0px auto;
 }
