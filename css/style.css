@@ -67,7 +67,7 @@ h4{
 .columnsMenu{
 	display: flex;
 	justify-content: center;
-	margin: 0px 50px 50px 50px;
+	margin: 0px auto;
 }
 .leftColumnMenu{
 	flex: 1;
@@ -79,12 +79,12 @@ h4{
 }
 .surprise-menu{
 	text-align: center;
+	margin: 60px 0px 0px 100px;
 }
 .uberraschungsMenu{
 	text-align: center;
 	color: #AE9A64;
 	font-size: 40px;
-	margin: 0px 0px 0px 100px
 }
 .footerContainer{
 	float: left;
