@@ -75,10 +75,12 @@ h4{
 }
 .leftColumnMenu{
 	flex: 1;
+	padding: 20px;
 	width: 250px;
 }
 .rightColumnMenu{
 	flex: 1;
+	padding: 20px;
 	width: 250px
 }
 .surprise-menu{
