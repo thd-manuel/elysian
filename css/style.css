@@ -164,6 +164,7 @@ footer ul li a{
 	padding: 10px 30px;
 	color: black;
 	float: left;
+	color: white;
 }
 #copyright{
 	float: left;
@@ -190,4 +191,6 @@ a.totop{
 	padding: 10px 20px;
 	text-decoration: none;
 	margin: -1.66667em auto 0;
+	float right;
+	color: white;
 }
