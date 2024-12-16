@@ -203,3 +203,11 @@ a.totop{
 	color: white;
 	text-align: right;
 }
+.contenttext{
+	float: left;
+	wodth: 98%;
+	padding: 0;
+	margin: 0 1%;
+	position: relative;
+	z-index:2;
+}
