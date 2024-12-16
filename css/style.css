@@ -50,6 +50,9 @@ h4{
 }
 #secondView {
 }
+#about{
+	margin: 190px 0;
+}
 .text-about{
 	font-size: 25px;
 	text-align: justify;
