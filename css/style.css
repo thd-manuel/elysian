@@ -11,12 +11,12 @@ h1{
 }
 h2{
 	color: #AE9A64;
-	text-align: left;
+	text-align: center;
 	font-size: 40px;
 }
 h3{
 	color: black;
-	text-align: left;
+	text-align: center
 	font-size: 27px;
 	margin-bottom: 2px;
 }
@@ -72,20 +72,26 @@ h4{
 	flex-flow: row wrap;
 	justify-content: center;
 	margin: 0px 100px;
+	color: white;
+	gap: 20px;
 }
 .leftColumnMenu{
+	background-color: #343a40;
+	padding: 35px;
+	text-align: center;
 	flex: 1;
-	padding: 20px;
-	width: 250px;
 }
 .rightColumnMenu{
+	background-color: #343a40;
+	padding: 35px;
+	text-align: center;
 	flex: 1;
-	padding: 20px;
-	width: 250px
 }
 .surprise-menu{
 	text-align: center;
-	margin: 90px 0px 160px 0px;
+	margin: 90px 100px 160px 100px;
+	background-color: #ae9a64;
+	color: white;
 }
 .uberraschungsMenu{
 	text-align: center;
