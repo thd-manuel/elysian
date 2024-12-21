@@ -68,7 +68,7 @@ h4{
 	flex-flow: row wrap;
 	justify-content: center;
 	gap: 35px;
-	margin: 0 0 70px 0;
+	margin: 0 15px 70px 15px;
 }
 #menu{
 	font-size: 21px;
