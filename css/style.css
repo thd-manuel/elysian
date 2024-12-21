@@ -64,7 +64,8 @@ h4{
 	margin: 55px 0 50px 0;
 }
 .imagesAbout{
-	display: flex;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
 	justify-content: center;
 	gap: 35px;
 	margin: 0 0 70px 0;
