@@ -99,6 +99,8 @@ h4{
 	background-color: #ae9a64;
 	color: white;
 	padding: 15px;
+	display: flex;
+	flex-flow: row wrap;
 }
 .surpriseMenuHeadline{
 	text-align: center;
