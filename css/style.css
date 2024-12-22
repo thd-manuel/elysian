@@ -53,8 +53,8 @@ h4{
 #about{
 	margin-top: 190px;
 	margin-bottom: 190px;
-	margin-left: min(60px, 50%);
-	margin-right: min(60px, 50%);
+	margin-left: min(40px, 5%);
+	margin-right: min(40px, 5%);
 	border-color: #AE9A64;
 	border-width: 5px;
 	border-style: solid;
