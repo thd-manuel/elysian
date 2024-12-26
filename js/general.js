@@ -1,13 +1,10 @@
-function myFunction() {
-    document.getElementById("demo").innerHTML = "Paragraph changed.";
-}
-
 document.addEventListener("DOMContentLoaded", function() {
     const navItems = document.querySelectorAll(".nav-item");
 
     navItems.forEach(function(item) {
         item.addEventListener("click", function(e) {
             e.preventDefault();
+
             const targetId = item.getAttribute("data-target");
             const targetElement = document.getElementById(targetId);
 
@@ -54,6 +51,26 @@ document.addEventListener("DOMContentLoaded", function() {
             nav.classList.add("scrolled");
         } else {
             nav.classList.remove("scrolled");
+        }
+    });
+    
+    const nav1 = document.getElementById("groß");
+
+    window.addEventListener("scroll", function() {
+        if (window.scrollY > 50) {
+            nav1.classList.add("scrolled");
+        } else {
+            nav1.classList.remove("scrolled");
+        }
+    });
+
+    const nav2 = document.getElementById("klein");
+
+    window.addEventListener("scroll", function() {
+        if (window.scrollY > 50) {
+            nav2.classList.add("scrolled");
+        } else {
+            nav2.classList.remove("scrolled");
         }
     });
 });
