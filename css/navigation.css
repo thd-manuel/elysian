@@ -1,4 +1,4 @@
-nav#topnav {
+nav#groß {
     background-color: rgba(174, 154, 100, 0.8);
     display: flex;
     justify-content: space-between;
@@ -15,7 +15,7 @@ nav#topnav {
     transition: all 0.3s ease-in-out;
 }
 
-nav#topnav .nav-item {
+nav#groß .nav-item {
     font-size: 18px;
     text-decoration: none;
     color: black;
@@ -26,63 +26,51 @@ nav#topnav .nav-item {
     flex-grow: 1;
 }
 
-nav#topnav .nav-item:hover {
+nav#groß .nav-item:hover {
     color: #616161;
 }
 
-nav#topnav.scrolled {
+nav#groß.scrolled {
     height: 40px;
     background-color: rgba(174, 154, 100, 0.8);
 }
 
-.logo-container {
+nav#groß.logo-container {
     flex-grow: 1;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-nav#topnav .logo-container img {
+nav#groß .logo-container img {
     height: 150px;
     transition: all 0.3s ease-in-out;
     flex-grow: 1;
 }
 
-nav#topnav.scrolled .logo-container img {
+nav#groß.scrolled .logo-container img {
     height: 40px;
 }
 
-nav#topnav.scrolled .nav-item {
+nav#groß.scrolled .nav-item {
     font-size: 16px;
-}
-
-nav#klein span.nav-item[data-target="Anfang"] {
-    display: none;
 }
 
 .hamburger {
     display: none;
     flex-direction: column;
     cursor: pointer;
-    margin: 0 15px;
     position: absolute;
-    left: 10px;
-    top: 10px;
+    left: 20px;
+    z-index: 1000;
 }
 
 .hamburger div {
-    width: 25px;
+    width: 30px;
     height: 3px;
     background-color: #333;
-    margin: 4px 0;
+    margin: 3px 0;
     transition: all 0.3s ease-in-out;
-}
-
-.logo-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1;
 }
 
 .menu {
@@ -94,8 +82,8 @@ nav#klein span.nav-item[data-target="Anfang"] {
     background-color: rgba(174, 154, 100, 1);
     width: 250px;
     height: 100vh;
-    z-index: 1001;
     padding: 20px;
+    z-index: 1001;
     overflow-y: auto;
 }
 
@@ -107,6 +95,26 @@ nav#klein span.nav-item[data-target="Anfang"] {
     margin-bottom: 20px;
 }
 
+nav#klein .logo-da {
+    display: none;
+}
+
+.menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: none;
+    z-index: 998;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.menu-overlay.active {
+    display: block;
+}
+
 @media (max-width: 768px) {
     nav#groß {
         display: none;
@@ -114,31 +122,112 @@ nav#klein span.nav-item[data-target="Anfang"] {
     nav#klein {
         display: flex;
     }
+
+    nav#klein {
+        background-color: rgba(174, 154, 100, 0.8);
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 10px 20px;
+        height: 100px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+        width: 100%;
+        transition: all 0.3s ease-in-out;
+    }
+
+    nav#klein .nav-item {
+        font-size: 18px;
+        text-decoration: none;
+        color: black;
+        margin: 0 10px;
+        white-space: nowrap;
+        transition: font-size 0.3s ease-in-out;
+        display: inline-block;
+        flex-grow: 1;
+    }
+
+    nav#klein .nav-item:hover {
+        color: #616161;
+    }
+
+    nav#klein.scrolled {
+        height: 40px;
+        background-color: rgba(174, 154, 100, 0.8);
+    }
+
+    nav#klein .logo-da {
+        flex-grow: 1;
+        display: flex;
+    }
+
+    nav#klein .logo-da img {
+        height: 100px;
+        transition: all 0.3s ease-in-out;
+        flex-grow: 1;
+    }
+
+    nav#klein.scrolled .nav-item {
+        font-size: 16px;
+    }
+
+    nav#klein .logo-da img {
+        max-width: 100px;
+        max-height: 100px;
+        width: auto;
+        height: auto;
+        transition: all 0.3s ease-in-out;
+    }
+
+    nav#klein .logo-da {
+        height: auto;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-grow: 1;
+        z-index: 1;
+    }
+
+    nav#klein.scrolled .logo-da img {
+        max-height: 40px;
+        width: auto;
+    }
+
+    nav#klein.scrolled .logo-da {
+        height: auto;
+        width: auto;
+    }
+
     .hamburger {
         display: flex;
     }
+
     .nav-links {
         display: none;
     }
+
     .menu.active {
         display: flex;
     }
+
     .menu-overlay.active {
         display: block;
     }
+
     .menu li {
         list-style: none;
         margin: 15px 0;
     }
+
     .menu li a, .menu li span {
         text-decoration: none;
         font-size: 18px;
         color: black;
     }
-
-    nav#klein span.nav-item[data-target="Anfang"] {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
 }
+
