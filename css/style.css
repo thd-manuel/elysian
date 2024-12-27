@@ -119,20 +119,20 @@ h4{
 
 .surpriseMenu{
 	text-align: center;
+	font-size: 21px;
+	color: white;
+	background-color: #ae9a64;
+	padding: 15px;
 	margin-top: 90px;
 	margin-bottom: 160px;
-	margin-left: min(300px, 10%);
-	margin-right: min(300px, 10%);
-	background-color: #ae9a64;
-	color: white;
-	padding: 15px;
-	font-size: 21px;
+	margin-left: 300px;
+	margin-right: 300px;
 }
 @media screen and (max-width: 768px) {
   .surpriseMenu {
+	font-size: 19px;
 	margin-top: 40px;
 	margin-bottom: 40px;
-	font-size: 19px;
   }
 }
 .surpriseMenuHeadline{
