@@ -110,18 +110,13 @@ h4{
 	color: white;
 	gap: 20px;
 }
-.leftColumnMenu{
+.leftColumnMenu, .rightColumnMenu {
 	background-color: #343a40;
 	padding: 35px;
 	text-align: center;
 	flex: 1;
 }
-.rightColumnMenu{
-	background-color: #343a40;
-	padding: 35px;
-	text-align: center;
-	flex: 1;
-}
+
 .surpriseMenu{
 	text-align: center;
 	margin-top: 90px;
