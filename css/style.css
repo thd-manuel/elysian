@@ -71,7 +71,7 @@ h4{
 @media screen and (max-width: 768px) {
   #about {
     margin-top: 40px;
-	margin-bottom: 40px;
+    margin-bottom: 40px;
   }
 }
 .textAbout{
@@ -82,7 +82,7 @@ h4{
 }
 @media screen and (max-width: 768px) {
   .textAbout {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 .imagesAbout{
