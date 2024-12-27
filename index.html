@@ -172,6 +172,34 @@
 				</div>
 			</section>
 		</div>
+
+		<div class = "reservations">
+			<h1>Reservierungen</h1>
+			<form action="/submit-reservation" method="post">
+			<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required><br><br>
+
+				<label for="email">E-Mail:</label>
+				<input type="email" id="email" name="email" required><br><br>
+
+				<label for="phone">Telefonnummer:</label>
+				<input type="tel" id="phone" name="phone" required><br><br>
+
+				<label for="date">Datum:</label>
+				<input type="date" id="date" name="date" required><br><br>
+
+				<label for="time">Uhrzeit:</label>
+				<input type="time" id="time" name="time" required><br><br>
+
+				<label for="guests">Anzahl der Gäste:</label>
+				<input type="number" id="guests" name="guests" min="1" required><br><br>
+
+				<label for="message">Nachricht:</label>
+				<textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+				<input type="submit" value="Anfrage senden">
+			</form>
+		</div>
 		
 		<div id="footer" class = "footer">
 		<section id="footer"> <!-- brauch ich für Navigation -->
