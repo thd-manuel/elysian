@@ -114,6 +114,7 @@ h4{
 	padding: 35px;
 	text-align: center;
 	flex: 1;
+	box-sizing: border-box;
 }
 
 .surpriseMenu{
