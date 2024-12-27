@@ -82,7 +82,7 @@ h4{
 }
 @media screen and (max-width: 768px) {
   .textAbout {
-    font-size: 18px;
+    font-size: 19px;
   }
 }
 .imagesAbout{
@@ -94,6 +94,11 @@ h4{
 }
 #menu{
 	font-size: 21px;
+}
+@media screen and (max-width: 768px) {
+  #menu {
+    font-size: 19px;
+  }
 }
 .columnsMenu{
 	display: flex;
