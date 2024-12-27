@@ -110,6 +110,11 @@ h4{
 	color: white;
 	gap: 30px;
 }
+@media screen and (max-width: 768px) {
+  .columnsMenu {
+    margin: 0px 50px;
+  }
+}
 .leftColumnMenu, .rightColumnMenu {
 	background-color: #343a40;
 	padding: 35px;
