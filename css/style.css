@@ -160,6 +160,7 @@ h4{
 	padding: 30px;
 	font-size: 27px;
 	border-radius: 10px;
+	transition-duration: 0.4s;
 }
 #reserveButton:hover{
 	background-color: white;
