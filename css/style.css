@@ -151,6 +151,9 @@ h4{
 	text-align: center;
 	font-size: 23px;
 	margin: 150px;
+	border-color: #AE9A64;
+	border-width: 5px;
+	border-style: solid;
 }
 #reserveButton{
 	background-color: #ae9a64;
