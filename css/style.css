@@ -147,6 +147,9 @@ h4{
     font-size: 27px;
   }
 }
+.buttonReserve{
+	background-color: #343a40;
+}
 .footerContainer{
 	float: left;
 	width: 25.33%;
