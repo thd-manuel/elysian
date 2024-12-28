@@ -77,7 +77,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-
-function reserve(){
-    document.getElementbyClassName("reservationsTwo").style.display = "block";
+/*für Reservierungen*/
+document.getElementById("reserveButton").addEventListener("click", wechseln);
+function wechseln(){
+	document.getElementById("reservationsOne").style.display = "none";
+	document.getElementById("reservationsTwo").style.display = "block";
 }
