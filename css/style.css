@@ -154,12 +154,17 @@ h4{
 }
 #reserveButton{
 	background-color: #ae9a64;
-	border: none;
+	border: #ae9a64;
 	color: white;
 	margin: 50px 0;
 	padding: 30px;
 	font-size: 27px;
 	border-radius: 10px;
+}
+#reserveButton:hover{
+	background-color: white;
+	color: #ae9a64;
+	border: 2px solid #ae9a64;
 }
 #reservationsTwo{
 	display: none;
