@@ -154,12 +154,15 @@ h4{
 }
 #reserveButton{
 	background-color: #ae9a64;
-	margin: 40px 0;
-	padding: 10px;
+	border: none;
+	color: white;
+	margin: 50px 0;
+	padding: 30px;
 	font-size: 27px;
 }
 #reservationsTwo{
 	display: none;
+	margin: 0 100px;
 }
 .footerContainer{
 	float: left;
