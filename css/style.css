@@ -147,12 +147,12 @@ h4{
     font-size: 27px;
   }
 }
-.reservationsOne{
+reservationsOne{
 	text-align: center;
 	font-size: 23px;
 	margin: 150px;
 }
-.buttonReserve{
+reserveButton{
 	background-color: #ae9a64;
 	margin: 40px 0;
 	padding: 10px;
