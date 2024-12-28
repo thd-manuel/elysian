@@ -79,5 +79,5 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 function reserve(){
-    document.getElementbyClassName("reservationsTwo").style.display = 'block';
+    document.getElementbyClassName("reservationsTwo").style.display = "block";
 }
