@@ -324,3 +324,6 @@ input[type="submit"]:hover {
     font-size: 19px;
   }
 }
+ul{
+	list-style: disc;
+}
