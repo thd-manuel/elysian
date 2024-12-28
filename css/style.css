@@ -150,14 +150,15 @@ h4{
 #reservationsOne{
 	text-align: center;
 	font-size: 23px;
-	margin: 150px;
+	margin: 100px;
+	padding: 40px;
 	border-color: #AE9A64;
 	border-width: 5px;
 	border-style: solid;
 }
 #reserveButton{
 	background-color: #ae9a64;
-	border: 2px solide #ae9a64;
+	border: 2px solid #ae9a64;
 	color: white;
 	margin: 50px 0;
 	padding: 30px;
