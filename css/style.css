@@ -156,6 +156,11 @@ h4{
 	border-width: 5px;
 	border-style: solid;
 }
+@media screen and (max-width: 768px) {
+  #reservationsOne {
+    font-size: 19px;
+  }
+}
 #reserveButton{
 	background-color: #ae9a64;
 	border: 2px solid #AE9A64;
@@ -165,6 +170,11 @@ h4{
 	font-size: 27px;
 	border-radius: 10px;
 	transition-duration: 0.4s;
+}
+@media screen and (max-width: 768px) {
+  #reserveButton {
+	font-size: 23px;
+  }
 }
 #reserveButton:hover{
 	background-color: white;
