@@ -317,7 +317,7 @@ input[type="submit"]:hover {
 .datenschutz{
 	font-size: 23px;
 	margin: 30px 125px;
-	/*hyphens: auto;*/
+	hyphens: auto;
 }
 @media screen and (max-width: 768px) {
   .datenschutz {
