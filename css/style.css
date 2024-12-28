@@ -159,6 +159,7 @@ h4{
 	margin: 50px 0;
 	padding: 30px;
 	font-size: 27px;
+	border-radius: 10px;
 }
 #reservationsTwo{
 	display: none;
