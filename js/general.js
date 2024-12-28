@@ -75,6 +75,9 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
+
+
+
 function reserve(){
-    
+    document.getElementbyClassName("reservations").innerHTML = "Es geht!";
 }
