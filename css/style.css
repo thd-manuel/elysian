@@ -72,8 +72,8 @@ h4{
   #about {
 	margin-top: 40px;
    	margin-bottom: 60px;
-	margin-left: 40px;
-	margin-right: 40px);
+	margin-left: 5%;
+	margin-right: 5%;
   }
 }
 .textAbout{
@@ -367,6 +367,7 @@ input[type="submit"]:hover {
 }
 @media screen and (max-width: 768px) {
   .datenschutz {
-    font-size: 19px;
+    	font-size: 19px;
+	margins: 15px 40px;
   }
 }
