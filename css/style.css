@@ -365,3 +365,9 @@ input[type="submit"]:hover {
 	margin: 30px 125px;
 	hyphens: auto;
 }
+@media screen and (max-width: 768px) {
+  .datenschutz {
+	font-size: 19px;
+	margin: 15px 40px;
+  }
+}
