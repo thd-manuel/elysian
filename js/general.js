@@ -74,3 +74,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 });
+
+function reserve(){
+    
+}
