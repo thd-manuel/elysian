@@ -147,8 +147,15 @@ h4{
     font-size: 27px;
   }
 }
+.reservationsOne{
+	text-align: center;
+	font-size: 23px;
+}
 .buttonReserve{
 	background-color: #ae9a64;
+	margin: 40px 0;
+	padding: 10px;
+	font-size: 27px;
 }
 .reservationsTwo{
 	display: none;
