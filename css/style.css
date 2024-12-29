@@ -193,6 +193,7 @@ h4{
   #reservationsTwo {
 	margin: 25px;
   }
+}
 .footerContainer{
 	float: left;
 	width: 25.33%;
@@ -360,3 +361,15 @@ input[type="submit"]:hover {
     border: 1px solid #c3e6cb;
     border-radius: 3px;
 }
+.datenschutz{
+	font-size: 23px;
+	margin: 30px 125px;
+	hyphens: auto;
+}
+@media screen and (max-width: 768px) {
+  .datenschutz {
+	font-size: 19px;
+	margin: 15px 40px;
+  }
+}
+
