@@ -369,7 +369,7 @@ input[type="submit"]:hover {
 @media screen and (max-width: 768px) {
   .datenschutz {
 	font-size: 19px;
-	margin: 15px 40px;
+	margin: 20px;
   }
 }
 
