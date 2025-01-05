@@ -1,8 +1,7 @@
 nav#groß {
     background-color: rgba(174, 154, 100, 0.8);
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
     padding: 10px 20px;
     height: 150px;
@@ -19,11 +18,10 @@ nav#groß .nav-item {
     font-size: 18px;
     text-decoration: none;
     color: black;
-    margin: 0 10px;
+    margin: 0;
     white-space: nowrap;
     transition: font-size 0.3s ease-in-out;
-    display: inline-block;
-    flex-grow: 1;
+    text-align: center;
 }
 
 nav#groß .nav-item:hover {
@@ -36,16 +34,16 @@ nav#groß.scrolled {
 }
 
 nav#groß.logo-container {
-    flex-grow: 1;
+    flex-grow: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: auto;
 }
 
 nav#groß .logo-container img {
     height: 150px;
     transition: all 0.3s ease-in-out;
-    flex-grow: 1;
 }
 
 nav#groß.scrolled .logo-container img {
@@ -116,16 +114,14 @@ nav#klein .logo-da {
 }
 
 @media (max-width: 768px) {
+    
     nav#groß {
         display: none;
     }
+    
     nav#klein {
         display: flex;
-    }
-
-    nav#klein {
         background-color: rgba(174, 154, 100, 0.8);
-        display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
         align-items: center;
@@ -141,7 +137,7 @@ nav#klein .logo-da {
     }
 
     nav#klein .nav-item {
-        font-size: 18px;
+        font-size: 16px;
         text-decoration: none;
         color: black;
         margin: 0 10px;
@@ -161,46 +157,38 @@ nav#klein .logo-da {
     }
 
     nav#klein .logo-da {
-        flex-grow: 1;
         display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-grow: 0;
+        height: 100px;
+        width: auto;
+        z-index: 1;
+        transition: all 0.3s ease-in-out;
     }
 
     nav#klein .logo-da img {
         height: 100px;
-        transition: all 0.3s ease-in-out;
-        flex-grow: 1;
-    }
-
-    nav#klein.scrolled .nav-item {
-        font-size: 16px;
-    }
-
-    nav#klein .logo-da img {
-        max-width: 100px;
-        max-height: 100px;
-        width: auto;
-        height: auto;
+        max-width: 100%;
         transition: all 0.3s ease-in-out;
     }
 
-    nav#klein .logo-da {
-        height: auto;
+    nav#klein.scrolled .logo-da img {
+        height: 40px;
+        max-width: 100%;
+        transition: all 0.3s ease-in-out;
+    }
+
+    nav#klein.scrolled .logo-da {
+        height: 40px;
         width: auto;
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-grow: 1;
-        z-index: 1;
     }
 
-    nav#klein.scrolled .logo-da img {
-        max-height: 40px;
-        width: auto;
-    }
-
-    nav#klein.scrolled .logo-da {
-        height: auto;
-        width: auto;
+    nav#klein.scrolled .nav-item {
+        font-size: 16px;
     }
 
     .hamburger {
@@ -226,8 +214,7 @@ nav#klein .logo-da {
 
     .menu li a, .menu li span {
         text-decoration: none;
-        font-size: 18px;
+        font-size: 16px;
         color: black;
     }
 }
-
