@@ -1,78 +1,54 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     const navItems = document.querySelectorAll(".nav-item");
+    const offset = 50;
 
-    navItems.forEach(function(item) {
-        item.addEventListener("click", function(e) {
+    navItems.forEach(item => {
+        item.addEventListener("click", function (e) {
             e.preventDefault();
-
             const targetId = item.getAttribute("data-target");
             const targetElement = document.getElementById(targetId);
 
             if (targetElement) {
                 window.scrollTo({
-                    top: targetElement.offsetTop,
+                    top: targetElement.offsetTop - offset,
                     behavior: "smooth"
                 });
             }
+            closeMenu();
         });
     });
 
     const hamburger = document.getElementById("hamburger");
     const menu = document.getElementById("menu");
     const menuOverlay = document.getElementById("menu-overlay");
-    const closeMenu = document.getElementById("close-menu");
+    const closeMenuButton = document.getElementById("close-menu");
 
-    hamburger.addEventListener("click", function() {
+    const openMenu = () => {
         menu.classList.add("active");
         menuOverlay.classList.add("active");
-    });
+    };
 
-    closeMenu.addEventListener("click", function() {
+    const closeMenu = () => {
         menu.classList.remove("active");
         menuOverlay.classList.remove("active");
-    });
+    };
 
-    menuOverlay.addEventListener("click", function() {
-        menu.classList.remove("active");
-        menuOverlay.classList.remove("active");
-    });
+    hamburger?.addEventListener("click", openMenu);
+    closeMenuButton?.addEventListener("click", closeMenu);
+    menuOverlay?.addEventListener("click", closeMenu);
 
-    navItems.forEach(function(item) {
-        item.addEventListener("click", function() {
-            menu.classList.remove("active");
-            menuOverlay.classList.remove("active");
+    const adjustNavOnScroll = () => {
+        const navElements = document.querySelectorAll("#topnav, #groß, #klein");
+        navElements.forEach(nav => {
+            if (window.scrollY > 50) {
+                nav.classList.add("scrolled");
+            } else {
+                nav.classList.remove("scrolled");
+            }
         });
-    });
+    };
 
-    const nav = document.getElementById("topnav");
-
-    window.addEventListener("scroll", function() {
-        if (window.scrollY > 50) {
-            nav.classList.add("scrolled");
-        } else {
-            nav.classList.remove("scrolled");
-        }
-    });
-    
-    const nav1 = document.getElementById("groß");
-
-    window.addEventListener("scroll", function() {
-        if (window.scrollY > 50) {
-            nav1.classList.add("scrolled");
-        } else {
-            nav1.classList.remove("scrolled");
-        }
-    });
-
-    const nav2 = document.getElementById("klein");
-
-    window.addEventListener("scroll", function() {
-        if (window.scrollY > 50) {
-            nav2.classList.add("scrolled");
-        } else {
-            nav2.classList.remove("scrolled");
-        }
-    });
+    window.addEventListener("scroll", adjustNavOnScroll);
 });
 
 
