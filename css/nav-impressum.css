@@ -1,8 +1,7 @@
 nav#groß {
     background-color: rgba(174, 154, 100, 0.8);
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
     padding: 10px 20px;
     height: 40px;
@@ -19,11 +18,10 @@ nav#groß .nav-link {
     font-size: 16px;
     text-decoration: none;
     color: black;
-    margin: 0 10px;
+    margin: 0;
     white-space: nowrap;
     transition: font-size 0.3s ease-in-out;
-    display: inline-block;
-    flex-grow: 1;
+    text-align: center;
 }
 
 nav#groß .nav-link:hover {
@@ -31,16 +29,16 @@ nav#groß .nav-link:hover {
 }
 
 nav#groß.logo-container {
-    flex-grow: 1;
+    flex-grow: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: auto;
 }
 
 nav#groß .logo-container img {
     height: 40px;
     transition: all 0.3s ease-in-out;
-    flex-grow: 1;
 }
 
 .hamburger {
