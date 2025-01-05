@@ -37,6 +37,11 @@ h4{
 	font-size: 27px;
 	margin-bottom: 2px; 
 }
+@media screen and (max-width: 768px){
+	h4{
+		font-size: 20px;
+	}
+}
 #firstView {
 	position: relative;
 	width: 100%;
@@ -260,6 +265,11 @@ iframe{
 	display: flex;
 	flex-wrap: wrap;
 }
+@media screen and (max-width: 768px){
+	#footer div.container{
+		max-width: 730px;
+	}
+}
 .footnav{
 	float: left;
 	width: 100%;
@@ -285,6 +295,11 @@ li{
 	display: inline;
 	text-align: -webkit-match-parent;
 	word-spacing: 50px;
+}
+@media screen and (max-width: 768px){
+	li{
+		word-spacing: 25px;
+	}
 }
 a{
 	text-decoration: none;
@@ -317,6 +332,12 @@ p{
 	margin: 10px 0 15px 0;
 	line-height:1.6em;
 }
+@media screen and (max-width: 768px){
+	p{
+		margin: 5px 0 7.5px 0;
+		line-height: 0.8em;
+	}
+}
 a.totop{
 	bottom: 0;
 	position: fixed;
@@ -332,6 +353,13 @@ a.totop{
 	float right;
 	color: #AE9A64;
 	text-align: right;
+}
+@media screen and (max-width: 768px){
+	a.totop{
+		right: 15px;
+		font-size:  0.75em;
+		z-index: 15;
+	}
 }
 .contenttext{
 	float: left;
