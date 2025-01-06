@@ -54,6 +54,9 @@ Position of the video with gradient to further content*/
 	height: auto;
 }
 
+
+/*Hannah
+Text "About Us" and menu + data protection*/
 #about{
 	margin-top: 150px;
 	margin-bottom: 150px;
@@ -113,6 +116,13 @@ Position of the video with gradient to further content*/
 	color: white;
 	font-size: 40px;
 }
+
+.datenschutz{
+	font-size: 23px;
+	margin: 30px 125px;
+	hyphens: auto;
+}
+
 
 /*Hannah + Manuel
 Reservation Form Style and Buttons. 
@@ -342,11 +352,6 @@ input[type="submit"]:hover {
 }
 
 
-.datenschutz{
-	font-size: 23px;
-	margin: 30px 125px;
-	hyphens: auto;
-}
 
 /*Hannah, Theresa, Sophie, Manuel
 Responsive Design for mobile view of website */
@@ -410,6 +415,11 @@ Responsive Design for mobile view of website */
 	.surpriseMenuHeadline {
 		font-size: 27px;
 	}
+
+	.datenschutz {
+		font-size: 19px;
+		margin: 20px;
+	}
 	
 	#reservationsOne {
 	   	font-size: 19px;
@@ -459,8 +469,4 @@ Responsive Design for mobile view of website */
 		z-index: 15;
 	}
 	
-	.datenschutz {
-		font-size: 19px;
-		margin: 20px;
-	}
 }
