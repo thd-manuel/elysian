@@ -57,7 +57,7 @@ nav#big.scrolled .nav-item {
     font-size: 18px;
 }
 
-/*hamburgermenu*/
+/*hamburgermenu hidden*/
 .hamburger {
     display: none;
     flex-direction: column; 
