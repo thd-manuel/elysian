@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
     menuOverlay?.addEventListener("click", closeMenu);
 
     const adjustNavOnScroll = () => {
-        const navElements = document.querySelectorAll("#topnav, #groß, #klein");
+        const navElements = document.querySelectorAll("#topnav, #big, #small");
         navElements.forEach(nav => {
             if (window.scrollY > 50) {
                 nav.classList.add("scrolled");
