@@ -144,7 +144,6 @@ Text + pictures "About Us" and menu and data protection*/
 	list-style-type: disc;
 	line-height: normal;
 	padding: 0 40px;
-	list-style-position: outside;
 }
 
 .listItemDataProtection{
