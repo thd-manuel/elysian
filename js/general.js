@@ -58,7 +58,7 @@ start reservation process by clicking on button*/
 document.getElementById("reserveButton").addEventListener("click", wechseln);
 function wechseln(){
 	document.getElementById("reservationStart").style.display = "none";
-	document.getElementById("reservationDataCustomer").style.display = "block";
+	document.getElementById("reservationsDataCustomer").style.display = "block";
 }
 
 
