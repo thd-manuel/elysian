@@ -82,8 +82,10 @@ Text + pictures "About Us" and menu and data protection*/
 	margin: 60px 10px;
 }
 
-.imagesAbout:hover{
-	
+.pictureOneAboutUs:hover, .pictureTwoAboutUs:hover, .pictureThreeAboutUs:hover, .pictureFourAboutUs:hover{
+	box-shadow: 5px 20px 25px 5px rgba(0, 0, 0, 0.2), 5px 25px 70px 5px rgba(0, 0, 0, 0.19);
+	width: 275px;
+	height: 200px;
 }
 
 .columnsMenu{
