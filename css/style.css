@@ -56,7 +56,7 @@ Position of the video with gradient to further content*/
 
 
 /*Hannah
-Text "About Us" + pictures and menu as well as data protection*/
+Text + pictures "About Us" and menu and data protection*/
 #about{
 	margin-top: 150px;
 	margin-bottom: 150px;
@@ -81,6 +81,11 @@ Text "About Us" + pictures and menu as well as data protection*/
 	gap: 35px;
 	margin: 60px 10px;
 }
+
+.imagesAbout:hover{
+	border-radius: 8px;
+}
+
 .columnsMenu{
 	display: flex;
 	flex-flow: row wrap;
@@ -117,7 +122,7 @@ Text "About Us" + pictures and menu as well as data protection*/
 	font-size: 40px;
 }
 
-.datenschutz{
+.dataProtection{
 	font-size: 23px;
 	margin: 30px 125px;
 	hyphens: auto;
@@ -126,8 +131,8 @@ Text "About Us" + pictures and menu as well as data protection*/
 
 /*Hannah + Manuel
 Reservation Form Style and Buttons. 
-With "display: none" and javascript the animation of switching contents is accomplished*/
-#reservationsOne{
+With "display: none" and javascript, the animation of switching contents is accomplished*/
+#reservationStart{
 	text-align: center;
 	font-size: 23px;
 	margin: 100px;
@@ -153,7 +158,8 @@ With "display: none" and javascript the animation of switching contents is accom
 	color: #ae9a64;
 	border: 2px solid #ae9a64;
 }
-#reservationsTwo{
+
+#reservationDataCustomer{
 	display: none;
 	margin: 50px 100px;
 }
