@@ -424,12 +424,12 @@ Responsive Design for mobile view of website */
 		font-size: 27px;
 	}
 
-	.datenschutz {
+	.dataProtection {
 		font-size: 19px;
 		margin: 20px;
 	}
 	
-	#reservationsOne {
+	#reservationStart {
 	   	font-size: 19px;
 		margin: 25px 20px;
 		padding: 20px;
@@ -441,7 +441,7 @@ Responsive Design for mobile view of website */
 		margin: 25px;
 	}
 	
-	#reservationsTwo {
+	#reservationDataCustomer {
 		margin: 25px;
 	}
 	
