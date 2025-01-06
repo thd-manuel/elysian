@@ -60,7 +60,6 @@ nav#groß.scrolled .nav-item {
     cursor: pointer;
     position: absolute;
     left: 20px;
-    top: 40px;
     z-index: 1000;
 }
 
