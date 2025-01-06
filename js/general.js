@@ -59,3 +59,12 @@ function wechseln(){
 	document.getElementById("reservationsOne").style.display = "none";
 	document.getElementById("reservationsTwo").style.display = "block";
 }
+
+
+/*send Reservation*/
+document.getElementById("reservationForm").addEventListener("submit", sendSwitch);
+function sendSwitch(){
+	event.preventDefault();
+	document.getElementById("reservationsTwo").style.display = "none";
+	document.getElementById("successfulReservation").style.display = "block";
+}
