@@ -53,18 +53,20 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-/*für Reservierungen*/
+/*Hannah
+start reservation process by clicking on button*/
 document.getElementById("reserveButton").addEventListener("click", wechseln);
 function wechseln(){
-	document.getElementById("reservationsOne").style.display = "none";
-	document.getElementById("reservationsTwo").style.display = "block";
+	document.getElementById("reservationStart").style.display = "none";
+	document.getElementById("reservationsDataCustomer").style.display = "block";
 }
 
 
-/*send Reservation*/
+/* Manuel
+send Reservation*/
 document.getElementById("reservationForm").addEventListener("submit", sendSwitch);
 function sendSwitch(){
 	event.preventDefault();
-	document.getElementById("reservationsTwo").style.display = "none";
+	document.getElementById("reservationDataCustomer").style.display = "none";
 	document.getElementById("successfulReservation").style.display = "block";
 }
