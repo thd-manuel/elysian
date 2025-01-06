@@ -1,3 +1,5 @@
+/*Sophie
+navigation on the big screen*/
 nav#big {
     background-color: rgba(174, 154, 100, 0.8);
     display: flex;
@@ -41,6 +43,7 @@ nav#big .logo-container img {
     transition: all 0.3s ease-in-out;
 }
 
+/*hamburgermenu hidden*/
 .hamburger {
     display: none; 
     flex-direction: column; 
@@ -82,6 +85,7 @@ nav#big .logo-container img {
     margin-bottom: 20px;
 }
 
+/* small logo hidden*/
 nav#small .logo-box {
     display: none;
 }
@@ -103,10 +107,13 @@ nav#small .logo-box {
 }
 
 @media (max-width: 768px) {
+
+     /* big navigaiton vanishes*/
     nav#big {
         display: none;
     }
 
+    /* navigations for the small display*/
     nav#small {
         background-color: rgba(174, 154, 100, 0.8);
         display: flex;
@@ -158,7 +165,8 @@ nav#small .logo-box {
         transition: all 0.3s ease-in-out;
         flex-grow: 1;
     }
-
+    
+    /*reapperance from the hamburgermenu and other hidden entitys*/
     .hamburger {
         display: flex;
     }
