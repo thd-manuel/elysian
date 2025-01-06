@@ -15,7 +15,7 @@ nav#groß {
 }
 
 nav#groß .nav-item {
-    font-size: 18px;
+    font-size: 23px;
     text-decoration: none;
     color: black;
     margin: 0;
@@ -51,7 +51,7 @@ nav#groß.scrolled .logo-container img {
 }
 
 nav#groß.scrolled .nav-item {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .hamburger {
@@ -60,6 +60,7 @@ nav#groß.scrolled .nav-item {
     cursor: pointer;
     position: absolute;
     left: 20px;
+    top: 40px;
     z-index: 1000;
 }
 
@@ -69,6 +70,8 @@ nav#groß.scrolled .nav-item {
     background-color: #333;
     margin: 3px 0;
     transition: all 0.3s ease-in-out;
+    top: 50%;
+    left: 50%;
 }
 
 .menu {
@@ -114,17 +117,15 @@ nav#klein .logo-da {
 }
 
 @media (max-width: 768px) {
-    
     nav#groß {
         display: none;
     }
-    
     nav#klein {
         display: flex;
         background-color: rgba(174, 154, 100, 0.8);
         justify-content: space-between;
         flex-wrap: wrap;
-        align-items: center;
+        align-items: right;
         padding: 10px 20px;
         height: 100px;
         position: fixed;
@@ -158,15 +159,16 @@ nav#klein .logo-da {
 
     nav#klein .logo-da {
         display: flex;
-        justify-content: center;
-        align-items: center;
+        justify-content: right;
+        align-items: right;
         flex-grow: 0;
         height: 100px;
         width: auto;
         z-index: 1;
         transition: all 0.3s ease-in-out;
+        margin-right: 30px;
     }
-
+	
     nav#klein .logo-da img {
         height: 100px;
         max-width: 100%;
@@ -183,8 +185,8 @@ nav#klein .logo-da {
         height: 40px;
         width: auto;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        justify-content: right;
+        align-items: right;
     }
 
     nav#klein.scrolled .nav-item {
@@ -218,3 +220,4 @@ nav#klein .logo-da {
         color: black;
     }
 }
+
