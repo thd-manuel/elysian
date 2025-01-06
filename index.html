@@ -1,4 +1,4 @@
-	<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="de">
 	<head>
 		<meta charset="UTF-8">
@@ -52,15 +52,15 @@
 		<section id="Anfang">
 		</section>
 
+		<!-- Manuel: Videocontent for first View of Website -->
 		<div id="firstView">
-		<!-- Manuel -->
 			<video width="100%" autoplay muted loop playsinline preload="auto" id="Vid1">
 				<source src="./images/vid1.mp4" type="video/mp4">
 			</video> 
 		</div>
 
-		<div id="secondView">
 		<!-- Hannah -->
+		<div id="secondView">
 			<section id="about"> <!-- brauch ich für Navigation -->
 				<h1>Über uns</h1>
 				<div class = "textAbout">
@@ -173,47 +173,47 @@
 			</section>
 		</div>
 
+		<!-- Manuel+Hannah: Reservationform started by buttonclick and submitted with buttonclick -->
 		<section id="Reservierungen">
-		<div id = "reservationsOne">
-			<h1>Reservierungen</h1>
-			<br><b>Sie möchten einen Tisch reservieren?</b><br>			
-			<button id = "reserveButton">JETZT BUCHEN!</button><br>
-			Bei Allergien, Unverträglichkeiten oder ähnlichem kontaktieren Sie uns bitte im Vorfeld Ihrer Reservierung telefonisch zur Absprache. Vielen Dank!<br><br>
-		</div>
-		
-		<div id = "reservationsTwo">
-			<h1>Reservierungen</h1>
-			<form id="reservationForm" action="sendReservation" method="post">
-			<label for="name">Name:</label>
-				<input type="text" id="name" name="name" required><br><br>
-
-				<label for="email">E-Mail:</label>
-				<input type="email" id="email" name="email" required><br><br>
-
-				<label for="phone">Telefonnummer:</label>
-				<input type="tel" id="phone" name="phone" required><br><br>
-
-				<label for="date">Datum:</label>
-				<input type="date" id="date" name="date" required><br><br>
-
-				<label for="time">Uhrzeit:</label>
-				<input type="time" id="time" name="time" required><br><br>
-
-				<label for="guests">Anzahl der Gäste:</label>
-				<input type="number" id="guests" name="guests" min="1" required><br><br>
-
-				<label for="message">Nachricht:</label>
-				<textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
-
-				<input type="submit" value="Anfrage senden">
-			</form>
-		</div>
-		<div id = "successfulReservation">
-			<h1>Vielen Dank!</h1>
-			<br><b>Ihre Reservierungsanfrage wurde erfolgreich entgegengenommen!</b><br>
-			<br><b>Ihre Anfrage wird innerhalb unserer Öffnungszeiten schnellstmöglich bearbeitet.</b><br>
-		</div>
+			<div id = "reservationsOne">
+				<h1>Reservierungen</h1>
+				<br><b>Sie möchten einen Tisch reservieren?</b><br>			
+				<button id = "reserveButton">JETZT BUCHEN!</button><br>
+				Bei Allergien, Unverträglichkeiten oder ähnlichem kontaktieren Sie uns bitte im Vorfeld Ihrer Reservierung telefonisch zur Absprache. Vielen Dank!<br><br>
+			</div>
 			
+			<div id = "reservationsTwo">
+				<h1>Reservierungen</h1>
+				<form id="reservationForm" action="sendReservation" method="post">
+					<label for="name">Name:</label>
+					<input type="text" id="name" name="name" required><br><br>
+	
+					<label for="email">E-Mail:</label>
+					<input type="email" id="email" name="email" required><br><br>
+	
+					<label for="phone">Telefonnummer:</label>
+					<input type="tel" id="phone" name="phone" required><br><br>
+	
+					<label for="date">Datum:</label>
+					<input type="date" id="date" name="date" required><br><br>
+	
+					<label for="time">Uhrzeit:</label>
+					<input type="time" id="time" name="time" required><br><br>
+	
+					<label for="guests">Anzahl der Gäste:</label>
+					<input type="number" id="guests" name="guests" min="1" required><br><br>
+	
+					<label for="message">Nachricht:</label>
+					<textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+	
+					<input type="submit" value="Anfrage senden">
+				</form>
+			</div>
+			<div id = "successfulReservation">
+				<h1>Vielen Dank!</h1>
+				<br><b>Ihre Reservierungsanfrage wurde erfolgreich entgegengenommen!</b><br>
+				<br><b>Ihre Anfrage wird innerhalb unserer Öffnungszeiten schnellstmöglich bearbeitet.</b><br>
+			</div>
 		</section>
 		
 		<div id="footer" class = "footer">
