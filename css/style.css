@@ -29,7 +29,8 @@ h4{
 
 
 
-/*Manuel*/
+/*Manuel
+Position of the video with gradient to further content*/
 #firstView {
 	position: relative;
 	width: 100%;
@@ -113,6 +114,9 @@ h4{
 	font-size: 40px;
 }
 
+/*Hannah + Manuel
+Reservation Form Style and Buttons. 
+With "display: none" and javascript the animation of switching contents is accomplished*/
 #reservationsOne{
 	text-align: center;
 	font-size: 23px;
@@ -290,6 +294,9 @@ a.totop{
 	position: relative;
 	z-index:2;
 }
+
+/*Manuel
+Basic modern style of the reservation form*/
 form {
     background-color: #fff;
     padding: 20px;
@@ -333,12 +340,16 @@ input[type="submit"]:hover {
     border: 1px solid #c3e6cb;
     border-radius: 3px;
 }
+
+
 .datenschutz{
 	font-size: 23px;
 	margin: 30px 125px;
 	hyphens: auto;
 }
 
+/*Hannah, Theresa, Sophie, Manuel
+Responsive Design for mobile view of website */
 @media screen and (max-width: 768px) {
 	h1 {
 		font-size: 38px;
