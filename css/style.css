@@ -130,6 +130,16 @@ Text + pictures "About Us" and menu and data protection*/
 	hyphens: auto;
 }
 
+.linkDataProtection{
+	color: black;
+	text-decoration: underline;
+}
+
+.linkDataProtection:hover{
+	color: blue;
+	text-decoration: none;
+}
+
 
 /*Hannah + Manuel
 Reservation Form Style and Buttons. 
