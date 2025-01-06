@@ -15,7 +15,7 @@ nav#groß {
 }
 
 nav#groß .nav-link {
-    font-size: 16px;
+    font-size: 18px;
     text-decoration: none;
     color: black;
     margin: 0;
@@ -47,7 +47,9 @@ nav#groß .logo-container img {
     cursor: pointer;
     position: absolute;
     left: 20px;
+    top: 40px;
     z-index: 1000;
+    
 }
 
 .hamburger div {
@@ -123,7 +125,7 @@ nav#klein .logo-da {
     }
 
     nav#klein .nav-link {
-        font-size: 16px;
+        font-size: 18px;
         text-decoration: none;
         color: black;
         margin: 0 10px;
@@ -141,10 +143,11 @@ nav#klein .logo-da {
         height: auto;
         width: auto;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        justify-content: right;
+        align-items: right;
         flex-grow: 1;
         z-index: 1;
+        margin-right: 30px; 
     }
 
     nav#klein .logo-da img {
