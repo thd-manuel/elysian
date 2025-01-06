@@ -140,6 +140,19 @@ Text + pictures "About Us" and menu and data protection*/
 	text-decoration: none;
 }
 
+.listDataProtection{
+	list-style-type: disc;
+	line-height: 35px;
+	padding: 0 40px;
+	list-style-position: outside;
+}
+
+.listItemDataProtection{
+	display: list-item;
+	text-align: start;
+	word-spacing: normal;
+}
+
 
 /*Hannah + Manuel
 Reservation Form Style and Buttons. 
