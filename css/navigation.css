@@ -56,11 +56,13 @@ nav#groß.scrolled .nav-item {
 
 .hamburger {
     display: none;
-    flex-direction: column;
-    cursor: pointer;
-    position: absolute;
+    flex-direction: column; 
+    cursor: pointer; 
+    position: absolute; 
     left: 20px;
-    z-index: 1000;
+    top: 50%; 
+    transform: translateY(-50%); 
+    z-index: 1000; 
 }
 
 .hamburger div {
