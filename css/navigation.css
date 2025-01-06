@@ -1,3 +1,5 @@
+/*Sophie
+navigation on the big screen*/
 nav#big {
     background-color: rgba(174, 154, 100, 0.8);
     display: flex;
@@ -28,6 +30,7 @@ nav#big .nav-item:hover {
     color: #616161;
 }
 
+/*navigation gets smaller when scrollen, is achieved with a combination of css and js*/
 nav#big.scrolled {
     height: 40px;
     background-color: rgba(174, 154, 100, 0.8);
@@ -54,6 +57,7 @@ nav#big.scrolled .nav-item {
     font-size: 18px;
 }
 
+/*hamburgermenu*/
 .hamburger {
     display: none;
     flex-direction: column; 
@@ -97,10 +101,6 @@ nav#big.scrolled .nav-item {
     margin-bottom: 20px;
 }
 
-nav#small .logo-box {
-    display: none;
-}
-
 .menu-overlay {
     position: fixed;
     top: 0;
@@ -117,10 +117,19 @@ nav#small .logo-box {
     display: block;
 }
 
+/* small logo hidden*/
+nav#small .logo-box {
+    display: none;
+}
+
 @media (max-width: 768px) {
+	
+    /* big navigaiton vanishes*/
     nav#big {
         display: none;
     }
+
+    /* navigations for the small display*/
     nav#small {
         display: flex;
         background-color: rgba(174, 154, 100, 0.8);
@@ -153,6 +162,7 @@ nav#small .logo-box {
         color: #616161;
     }
 
+    /* navigation becomes smaller when scrolled, combination with css and js*/
     nav#small.scrolled {
         height: 40px;
         background-color: rgba(174, 154, 100, 0.8);
@@ -194,6 +204,7 @@ nav#small .logo-box {
         font-size: 16px;
     }
 
+    /*reapperance from the hamburgermenu and other hidden entitys*/
     .hamburger {
         display: flex;
     }
