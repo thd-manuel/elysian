@@ -198,7 +198,8 @@ With "display: none" and javascript, the animation of switching contents is acco
 	border-width: 5px;
 	border-style: solid;
 }
-
+/*Theresa
+Footer, with contact, link to social media, opening hours and contact information, as well as link to the imprint and data protection, a button to get back to the top*/
 .footerContainer{
 	float: left;
 	width: 25.33%;
