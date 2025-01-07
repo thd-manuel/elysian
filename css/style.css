@@ -67,14 +67,14 @@ Text + pictures "About Us" and menu and data protection*/
 	border-style: solid;
 }
 
-.textAbout{
+.textAboutUs{
 	font-size: 23px;
 	text-align: center;
 	width: 80%;
 	margin: 0 auto;
 }
 
-.imagesAbout{
+.imagesAboutUs{
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
@@ -82,7 +82,7 @@ Text + pictures "About Us" and menu and data protection*/
 	margin: 60px 10px;
 }
 
-.pictureOneAboutUs:hover, .pictureTwoAboutUs:hover, .pictureThreeAboutUs:hover, .pictureFourAboutUs:hover{
+.imageAboutUs:hover{
 	box-shadow: 5px 20px 25px 5px rgba(0, 0, 0, 0.2), 5px 25px 70px 5px rgba(0, 0, 0, 0.19);
 	width: 315px;
 	height: 230px;
