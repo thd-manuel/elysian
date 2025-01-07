@@ -209,7 +209,7 @@ Footer, with contact, link to social media, opening hours and contact informatio
 }
 
 .footer{ 
-	background-color: #343a40;
+	background-color: transparent;
 	color: white;
 }
 .container{
@@ -221,6 +221,7 @@ Footer, with contact, link to social media, opening hours and contact informatio
 
 #footer{
 	border-top: 10px solid #AE9A64;
+	background-color: #343a40;
 }
 iframe{ 
 	max-width:100%;
