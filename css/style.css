@@ -327,15 +327,10 @@ a.totop{
 	color: #AE9A64;
 	text-align: right;
 }
-
-.contenttext{
-	float: left;
-	width: 98%;
-	padding: 0;
-	margin: 0 1%;
-	position: relative;
-	z-index:2;
-}
+.imprint{
+	font-size: 23px;
+	margin: 30px 125px;
+	hyphens: auto;
 
 /*Manuel
 Basic modern style of the reservation form*/
