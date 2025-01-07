@@ -57,7 +57,7 @@ Position of the video with gradient to further content*/
 
 /*Hannah
 Text + pictures "About Us" and menu and data protection*/
-#about{
+#about{ /*contains text and pictures about us*/
 	margin-top: 150px;
 	margin-bottom: 150px;
 	margin-left: 100px;
@@ -88,7 +88,7 @@ Text + pictures "About Us" and menu and data protection*/
 	height: 230px;
 }
 
-.columnsMenu{
+.columnsMenu{ /*contains left and right columns of menu*/
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
@@ -106,7 +106,7 @@ Text + pictures "About Us" and menu and data protection*/
 	box-sizing: border-box;
 }
 
-.surpriseMenu{
+.surpriseMenu{ /*special offer*/
 	text-align: center;
 	font-size: 21px;
 	color: white;
