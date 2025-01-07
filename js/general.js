@@ -62,9 +62,9 @@ window.addEventListener("scroll", adjustNavOnScroll);
 
 
 /*Hannah
-start reservation process by clicking on button*/
-document.getElementById("reserveButton").addEventListener("click", wechseln);
-function wechseln(){
+start reservation process by clicking on button and show reservation form*/
+document.getElementById("reserveButton").addEventListener("click", change);
+function change(){
 	document.getElementById("reservationStart").style.display = "none";
 	document.getElementById("reservationDataCustomer").style.display = "block";
 }
