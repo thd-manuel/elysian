@@ -223,7 +223,7 @@ Footer, with contact, link to social media, opening hours and contact informatio
 #footer{
 	border-top: 10px solid #AE9A64;
 }
-iframe{ 
+iframe{ /* google maps Karte*/
 	max-width:100%;
 }
 .fa{
@@ -252,7 +252,7 @@ iframe{
 	flex-wrap: wrap;
 }
 
-.footnav{
+.footnav{ 
 	float: left;
 	width: 100%;
 	color: white;
