@@ -86,6 +86,7 @@ Text + pictures "About Us" and menu and data protection*/
 	box-shadow: 5px 20px 25px 5px rgba(0, 0, 0, 0.2), 5px 25px 70px 5px rgba(0, 0, 0, 0.19);
 	width: 315px;
 	height: 230px;
+	transform: translateY(-20px);
 }
 
 .columnsMenu{ /*contains left and right columns of menu*/
