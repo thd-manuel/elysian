@@ -54,7 +54,10 @@ Position of the video with gradient to further content*/
 	height: auto;
 }
 
-#about{
+
+/*Hannah
+Text + pictures "About Us" and menu and data protection*/
+#aboutUs{ /*contains text and pictures about us*/
 	margin-top: 150px;
 	margin-bottom: 150px;
 	margin-left: 100px;
@@ -64,21 +67,28 @@ Position of the video with gradient to further content*/
 	border-style: solid;
 }
 
-.textAbout{
+.textAboutUs{
 	font-size: 23px;
 	text-align: center;
 	width: 80%;
 	margin: 0 auto;
 }
 
-.imagesAbout{
+.imagesAboutUs{
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
 	gap: 35px;
 	margin: 60px 10px;
 }
-.columnsMenu{
+
+.imageAboutUs:hover{
+	box-shadow: 5px 20px 25px 5px rgba(0, 0, 0, 0.2), 5px 25px 70px 5px rgba(0, 0, 0, 0.19);
+	width: 315px;
+	height: 230px;
+}
+
+.columnsMenu{ /*contains left and right columns of menu*/
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
@@ -96,7 +106,7 @@ Position of the video with gradient to further content*/
 	box-sizing: border-box;
 }
 
-.surpriseMenu{
+.surpriseMenu{ /*special offer*/
 	text-align: center;
 	font-size: 21px;
 	color: white;
@@ -114,10 +124,39 @@ Position of the video with gradient to further content*/
 	font-size: 40px;
 }
 
+.dataProtection{
+	font-size: 23px;
+	margin: 30px 125px;
+	hyphens: auto;
+}
+
+.linkDataProtection{
+	color: black;
+	text-decoration: underline;
+}
+
+.linkDataProtection:hover{
+	color: blue;
+	text-decoration: none;
+}
+
+.listDataProtection{
+	list-style-type: disc;
+	line-height: normal;
+	padding: 0 40px;
+}
+
+.listItemDataProtection{
+	display: list-item;
+	text-align: start;
+	word-spacing: normal;
+}
+
+
 /*Hannah + Manuel
 Reservation Form Style and Buttons. 
-With "display: none" and javascript the animation of switching contents is accomplished*/
-#reservationsOne{
+With "display: none" and javascript, the animation of switching contents is accomplished*/
+#reservationStart{
 	text-align: center;
 	font-size: 23px;
 	margin: 100px;
@@ -143,7 +182,8 @@ With "display: none" and javascript the animation of switching contents is accom
 	color: #ae9a64;
 	border: 2px solid #ae9a64;
 }
-#reservationsTwo{
+
+#reservationDataCustomer{
 	display: none;
 	margin: 50px 100px;
 }
@@ -342,11 +382,6 @@ input[type="submit"]:hover {
 }
 
 
-.datenschutz{
-	font-size: 23px;
-	margin: 30px 125px;
-	hyphens: auto;
-}
 
 /*Hannah, Theresa, Sophie, Manuel
 Responsive Design for mobile view of website */
@@ -383,14 +418,14 @@ Responsive Design for mobile view of website */
 		padding: 0;
 	}
 	
-	#about {
+	#aboutUs {
 		margin-top: 40px;
 	   	margin-bottom: 60px;
 		margin-left: 5%;
 		margin-right: 5%;
  	}
 	
-	.textAbout {
+	.textAboutUs {
 	   	font-size: 19px;
   	}
 	
@@ -410,8 +445,13 @@ Responsive Design for mobile view of website */
 	.surpriseMenuHeadline {
 		font-size: 27px;
 	}
+
+	.dataProtection {
+		font-size: 19px;
+		margin: 20px;
+	}
 	
-	#reservationsOne {
+	#reservationStart {
 	   	font-size: 19px;
 		margin: 25px 20px;
 		padding: 20px;
@@ -423,7 +463,7 @@ Responsive Design for mobile view of website */
 		margin: 25px;
 	}
 	
-	#reservationsTwo {
+	#reservationDataCustomer {
 		margin: 25px;
 	}
 	
@@ -459,8 +499,4 @@ Responsive Design for mobile view of website */
 		z-index: 15;
 	}
 	
-	.datenschutz {
-		font-size: 19px;
-		margin: 20px;
-	}
 }
