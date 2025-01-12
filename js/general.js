@@ -77,4 +77,5 @@ function sendSwitch(){
 	event.preventDefault();
 	document.getElementById("reservationDataCustomer").style.display = "none";
 	document.getElementById("successfulReservation").style.display = "block";
+	document.getElementById('nav-reservations').scrollIntoView({ behavior: 'smooth' });
 }
