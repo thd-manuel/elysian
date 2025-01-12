@@ -179,10 +179,6 @@ nav#small .logo-box {
         display: flex;
     }
 
-    .menu{
-        display: flex;
-    }
-
     .menu-overlay.active {
         display: block;
     }
