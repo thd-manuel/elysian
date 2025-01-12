@@ -327,7 +327,10 @@ a.totop{
 	color: #AE9A64;
 	text-align: right;
 }
-
+.imprint{ 
+	font-size:23px;
+	margin: 30px 125px;
+}
 .contenttext{
 	float: left;
 	width: 98%;
