@@ -25,7 +25,10 @@ navItems.forEach(item => {
 const hamburger = document.getElementById("hamburger");
 const menu = document.getElementById("menu");
 const menuOverlay = document.getElementById("menu-overlay");
+
 const closeMenuButton = document.getElementById("close-menu");
+
+
 
 // Function to open the menu by adding active classes
 const openMenu = () => {
@@ -79,3 +82,4 @@ function sendSwitch(){
 	document.getElementById("successfulReservation").style.display = "block";
 	document.getElementById('nav-reservations').scrollIntoView({ behavior: 'smooth' });
 }
+
