@@ -83,3 +83,33 @@ function sendSwitch(){
 	document.getElementById('nav-reservations').scrollIntoView({ behavior: 'smooth' });
 }
 
+// Logout functionality
+document.getElementById("logoutBtn")?.addEventListener("click", handleLogout);
+document.getElementById("logoutBtnMobile")?.addEventListener("click", handleLogout);
+
+async function handleLogout(e) {
+	e.preventDefault();
+	
+	if (confirm('Möchten Sie sich wirklich abmelden?')) {
+		try {
+			const response = await fetch('/api/logout', {
+				method: 'POST',
+				headers: {
+					'Content-Type': 'application/json',
+				},
+			});
+
+			const data = await response.json();
+			
+			if (data.success) {
+				window.location.href = '/login.html';
+			} else {
+				alert('Fehler beim Abmelden. Bitte versuchen Sie es erneut.');
+			}
+		} catch (error) {
+			console.error('Logout error:', error);
+			alert('Verbindungsfehler beim Abmelden.');
+		}
+	}
+}
+
